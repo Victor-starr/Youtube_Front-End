@@ -1,0 +1,45 @@
+nav.navsearch{
+    background-color: #212121;
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    top: 0px;
+    z-index: 6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10px;
+    display: none;
+}
+nav.navsearch i.fa-microphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+}
+nav.navsearch i{
+    color: white;
+    font-size: 23px;
+    margin: 0px 15px 0 15px;
+}
+nav.navsearch span.search-bar{
+    width: 70%;
+    
+}
+nav.navsearch span.search-bar input{
+    padding: 5px;
+}
+nav.navsearch span.search-bar input,
+nav.navsearch span.search-bar i{
+    background-color:#383838;
+    border: none;
+    font-size: 17px;
+    margin: 0px;
+}
+
+

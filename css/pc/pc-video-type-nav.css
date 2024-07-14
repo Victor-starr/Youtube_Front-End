@@ -1,0 +1,64 @@
+
+main{
+    background-color: #0f0f0f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    left: 224px;
+    top: 56px;
+    width: 88vw;
+}
+main nav.video-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: red solid 2px; */
+    height: 50px;
+    width: auto;
+}
+div.slide-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 0 10px 0 10px;
+    /* border: rgb(0, 26, 255) solid 2px; */
+}
+div.slide-bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 506px;
+    height: 50px;
+    overflow-x: hidden;
+    transition: transform 0.3s ease-in-out;
+    /* border: rgb(0, 26, 255) solid 2px; */
+}
+div.slide-buttons path{
+    fill: white;
+}
+div.slide-buttons svg{
+    height: 16px;
+}
+div.slide-bar a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    background-color: #272727;
+    border-radius: 5px;
+}
+div.slide-bar a.main{
+    background-color: #f1f1f1;
+    color: black;
+}
+/* hover */
+div.slide-buttons:hover{
+    background-color: #3f3f3f;
+    border-radius: 50%;
+}

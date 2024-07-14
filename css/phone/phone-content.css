@@ -1,0 +1,53 @@
+/* Styles for screens up to 600px */
+@media (max-width: 600px) {
+    main nav.video-type {
+        display: none;
+    }
+
+    main {
+        left: 0px;
+        width: 100vw;
+    }
+    div.video-content-box{
+        width: 462px;
+        height: 396px;
+    }
+    
+    div.video-box span.video-time{
+        bottom: 40px;
+        left: 400px;
+        font-size: 14px;
+    }
+    div.video-bottom span.pfp img{
+        height: 69px;
+    }
+    div.video-description h2{
+        font-size: 18px;
+    }
+    div.video-description p,
+div.video-description span{
+    font-size: 19px;
+    margin: 10px 0 10px 0;
+}
+div.video-description p svg{
+    height: 12px;
+}
+
+
+    section.content {
+        justify-content: center;
+    }
+}
+
+/* Styles for screens between 600px and 1310px */
+@media (min-width: 601px) and (max-width: 1310px) {
+    main {
+        left: 66px;
+        width: 96vw;
+    }
+    
+    section.content {
+        justify-content: center;
+    }
+}
+

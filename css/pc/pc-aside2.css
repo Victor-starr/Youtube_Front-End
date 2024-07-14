@@ -1,0 +1,90 @@
+div.cover{
+    display: none;
+    position: absolute;
+    top: 0px;
+    background-color:rgb(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 6;
+
+}
+
+aside.two{
+/* border: red solid 2px; */
+background-color: #0f0f0f;
+position: fixed;
+overflow: hidden;
+text-overflow: ellipsis;
+overflow-y: auto;
+top: 0px;
+left: -229px;   /* -229,0px */
+width: auto;
+max-width: 224px;
+height: 99vh;
+z-index: 8;
+transition: left 0.3s ease;
+}
+/*  */
+span.asideParts2{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: #3f3f3f solid 2px;
+}
+
+span.asideParts2 div.asideDiv{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: rgb(255, 3, 3) solid 2px; */
+    border-radius: 15px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+}
+
+
+span.asideParts2 div a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+span.asideParts2 div svg{
+    margin: 0 10px 0 0;
+}
+span.asideParts2 p{
+    color: white;
+}
+span.asideParts2 button.singLog {
+    background-color: transparent;
+    border: #3f3f3f solid 1px;
+    font-size: 18px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 20px;
+}
+span.asideParts2 h1{
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+
+span.asideParts2 div.bar-logo{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    /* border: red solid 2px; */
+    border-radius: 15px;
+}
+div.bar-logo img{
+    height: 38px;
+    padding-left: 12px;
+}
+div.bar-logo i.fa-bars{
+    padding: 10px;
+}
+div.bar-logo i.fa-bars:hover{
+    padding: 10px;
+    background-color: #3d3d3d;
+    border-radius: 50%;
+}
+

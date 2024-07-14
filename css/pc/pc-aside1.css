@@ -1,0 +1,116 @@
+
+svg{
+    height: 30px;
+    fill: white;
+}
+/* ASIDE1 */
+aside.one{
+    position: fixed;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-y: auto;
+    top: 56px;
+    left: 0px;
+    width: auto;
+    max-width: 224px;
+    height: 94vh;
+    z-index: 2;
+    background-color: #0f0f0f;
+    /* border: rgb(255, 3, 3) solid 2px; */
+}
+/* aside top 1 */
+span.asideParts{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: #3f3f3f solid 2px;
+}
+
+/* aside top 2 */
+aside span.bar-toggle{
+    display: flex;
+    flex-direction: column;
+    /* border: rgb(255, 3, 3) solid 2px; */
+
+}
+
+span.bar-toggle div.bar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    /* border: rgb(255, 3, 3) solid 2px; */
+}
+span.bar-toggle div.bar-toggle a{
+    display: flex;
+    justify-content: center;
+    font-size:11px;
+}
+
+
+
+
+span.asideParts div.asideDiv,
+span.bar-toggle div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: rgb(255, 3, 3) solid 2px; */
+    border-radius: 15px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+}
+
+span.asideParts div a,
+span.bar-toggle div a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+span.asideParts div svg{
+    margin: 0 10px 0 0;
+}
+span.asideParts p{
+    color: white;
+}
+span.asideParts button.singLog {
+    background-color: transparent;
+    border: #3f3f3f solid 1px;
+    font-size: 18px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 20px;
+}
+span.asideParts h1{
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+}
+span.bar-toggle div.bar-toggle{
+    display: none;
+}
+
+
+
+
+/* Hover */
+span.asideParts div:hover,
+span.bar-toggle div:hover,
+span.asideParts2 div:hover{
+    background-color: #272727;
+}
+span.asideParts2 div.bar-logo:hover{
+    background-color:transparent;
+}
+/* Scroll bar on the side of aside */
+aside::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+aside::-webkit-scrollbar-thumb {
+    background-color: #363636; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+aside::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the color of the scrollbar track */
+}

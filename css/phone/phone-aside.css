@@ -1,0 +1,29 @@
+/* tablet */
+@media (max-width: 1310px) {
+    aside.one span.asideParts{
+        display: none;
+        
+    }
+    aside.one span.bar-toggle{
+        display: flex;
+        flex-direction: column;
+        /* border: rgb(255, 3, 3) solid 2px; */
+    
+    }
+    
+    span.bar-toggle div.bar-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+        /* border: rgb(255, 3, 3) solid 2px; */
+    }
+    span.bar-toggle div.bar-toggle a{
+        display: flex;
+        justify-content: center;
+        font-size:11px;
+    }
+
+}
+
+

@@ -1,0 +1,105 @@
+/* To Do design the shorts-box */
+div.shortcuts-content-cover{
+    background-color: aqua;
+    position: relative;
+    width: 100%;
+    height: 478px; /* 902px,478px */
+    border-bottom: #3f3f3f solid 2px;
+}
+div.shortcuts-content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+div.title-shortcut{
+    /* background-color:rgb(162, 0, 255); */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+div.title-shortcut svg{
+    height: 50px;
+    width: 50px;
+}
+div.title-shortcut h2{
+    font-size: 18px;
+    color: white;
+}
+div.shortcuts-box{
+    /* background-color: rgba(255, 0, 0, 0.685); */
+    height: 902px;
+    width: 95%;
+    margin: 10px 0 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+div.shortcut-content-video{
+    /* background-color: rgb(255, 3, 3); */
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px 15px 20px;
+}
+div.shortcuts-bg{
+    height: 85%;
+    width: 100%;
+}
+div.shortcuts-bg{
+    height: 85%;
+    width: 100%;
+}
+div.shortcuts-bg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+div.shorts-bottom{
+    height: 15%;
+    width: 100%;
+    color: white;
+}
+h3{
+    font-size: 12px;
+    margin: 5px 0 5px 5px;
+}
+p.video-info{
+    font-size: 11px;
+    margin: 5px 0 5px 5px;
+}
+
+span.shorts-bhn{
+    border: #3f3f3f solid 1px;
+    position: absolute;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    bottom: -20px;
+    left: 37%;
+    cursor: pointer;
+}
+span.shorts-bhn p{
+    color: white;
+    font-size: 15px;
+    margin: 8px;
+    
+}
+span.shorts-bhn svg{
+    fill:white;
+    height: 20px;
+}
+/* Hover */
+span.shorts-bhn:hover{
+    background-color: #3f3f3f;
+}

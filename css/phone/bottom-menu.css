@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+    span.bar-toggle div.bar-toggle{
+        display: none;
+    } 
+    aside.one {
+        position: fixed;
+        overflow: hidden;
+        top: 93vh;
+        right: 0px;
+        z-index: 5;
+        /* border: rgb(170, 70, 70) solid 2px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 60px;
+        max-width:none;
+        width: 100vw;
+        height: 55px;
+        padding: 5px 0 5px 0 ;
+
+        
+    }
+    aside.one span.bar-toggle{
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+        /* border: rgb(21, 255, 0) solid 2px; */
+        height: 65px;
+        width: auto;
+    }
+    span.bar-toggle div.bottom-menu{
+        display:flex;
+        /* border: red solid 2px; */
+        justify-content: space-around;
+    }
+    span.bar-toggle div.bottom-menu:hover{
+        background-color: transparent;
+    }
+
+}
